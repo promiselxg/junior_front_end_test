@@ -1,3 +1,5 @@
-If you want to embed images, this is how you do it:
+## Challange :
 
-![Image of Yaktocat](https://github.com/promiselxg/junior_front_end_test/blob/main/src/images/02-onboarding-setup.png)
+`You are expected to review the attached image and translate it to a web-page using VueJS or ReactJS.`
+
+![Junior Front End Test](https://github.com/promiselxg/junior_front_end_test/blob/main/src/images/02-onboarding-setup.png)
