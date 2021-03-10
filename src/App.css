@@ -2,7 +2,7 @@
   margin: 0;
 }
 body {
-  font-family: "Open Sans Condensed", "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .app {
   display: flex;
@@ -17,7 +17,7 @@ body {
 }
 .sidebar__top {
   display: flex;
-  padding: 50px 35px;
+  padding: 50px 50px;
 }
 .sidebar__top .MuiSvgIcon-root {
   font-size: 70px !important;
@@ -29,7 +29,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 35px;
 
   border-left: 3px solid transparent;
 }
@@ -38,7 +38,7 @@ body {
   cursor: pointer;
 }
 .active > .MuiSvgIcon-root {
-  margin-right: 12px;
+  margin-right: 40px;
   font-size: medium;
 }
 .active > h1 {
@@ -62,12 +62,12 @@ body {
   display: flex;
 }
 .testimonial__box {
-  margin: 30px 30px;
+  margin: 50px 40px;
 }
 .testimonial {
   display: flex;
   align-items: center;
-  padding: 20px 5px;
+  padding: 30px 5px;
   border: 1px solid #5e5b5b;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
