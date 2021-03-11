@@ -1,8 +1,8 @@
 import React from "react";
-import { Container } from "@material-ui/core";
+import { Container, Button } from "@material-ui/core";
 import "../styles/dashboard.css";
-import Badge from "@material-ui/core/Badge";
-
+import SliderBox from "./Slider";
+import Modules from "./Modules";
 const AppContent = () => {
   return (
     <>
@@ -65,10 +65,29 @@ const AppContent = () => {
                 </span>
               </div>
             </div>
+            <SliderBox />
+            <Modules />
+            <div className='footer'>
+              <div className='footer__container'>
+                <div>
+                  <Button>Go Back</Button>
+                </div>
+                <div>
+                  <Button
+                    style={{
+                      backgroundColor: "yellow",
+                      color: "#000",
+                      padding: "10px 20px",
+                    }}
+                  >
+                    Secondary
+                  </Button>
+                </div>
+              </div>
+            </div>
           </div>
         </Container>
       </div>
-      ;
     </>
   );
 };

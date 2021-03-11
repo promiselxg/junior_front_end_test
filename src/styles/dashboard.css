@@ -3,6 +3,7 @@
   flex: 0.75;
   background-color: rgba(238, 232, 232, 0.219);
   width: 100%;
+  height: auto;
 }
 .dashboard__container {
   padding: 50px;
@@ -23,7 +24,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #333;
+  color: rgb(143, 131, 131);
 }
 .dashboard__topLeft > h2 {
   font-size: 24px;
@@ -38,7 +39,7 @@
 .dashboard__topLeft > p {
   font-size: 12px;
   font-weight: 400;
-  color: #333;
+  color: rgb(143, 131, 131);
 }
 .dashboard__topRight {
   display: flex;
@@ -49,7 +50,7 @@
   color: rgb(47, 148, 243);
 }
 .currency {
-  color: rgb(7, 83, 182) !important;
+  color: rgb(45, 109, 192) !important;
   font-size: 24px !important;
   font-weight: 600 !important;
   letter-spacing: 0px !important;
@@ -57,10 +58,11 @@
 .dashboard__topRight > h2 {
   display: flex !important;
   align-items: center;
-  color: #333;
+  font-size: 18px;
+  color: rgb(143, 131, 131);
 }
 .dashboard__topRight > h2 span {
-  font-size: 12px !important;
+  font-size: 10px !important;
   margin-top: 5px !important;
   margin-left: 3px !important;
   text-transform: uppercase !important;
@@ -90,28 +92,28 @@
 }
 .option_one > h1 {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(238, 163, 24);
   letter-spacing: 1px;
 }
 .option_one > h1:nth-child(3) {
-  color: #333 !important;
+  color: rgb(143, 131, 131) !important;
   letter-spacing: -0.6px;
   font-weight: 600;
   font-size: 20px !important;
 }
 .option_one > h2 {
   font-size: 12px;
-  color: #333;
-  font-weight: 600;
+  color: rgb(143, 131, 131);
+  font-weight: 400;
   text-transform: uppercase;
 }
 .option_one > p {
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: lowercase;
-  font-weight: 600;
-  color: #333;
+  font-weight: 400;
+  color: rgb(143, 131, 131);
 }
 .option_two > h1 {
   font-size: 18px;
@@ -159,18 +161,18 @@
   top: -15px;
   left: 15px;
 }
-.badge i {
-  margin-left: 2px;
-}
+
 .highlight .option_one h1 {
   color: rgb(49, 120, 202);
 }
 .highlight .option_one p {
   font-size: 12px;
-  color: #bbb;
+  color: rgb(143, 131, 131);
+  font-weight: 400 !important;
 }
 .highlight .option_one p span {
-  color: #333;
+  color: rgb(110, 107, 107);
+  font-size: 10px !important;
   font-weight: 600;
 }
 .second {
@@ -180,4 +182,8 @@
 .second p:nth-child(1) {
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.second p {
+  color: rgb(143, 131, 131) !important;
 }
